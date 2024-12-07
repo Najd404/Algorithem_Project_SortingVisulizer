@@ -1,0 +1,58 @@
+.sorting-visualizer {
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+    .controls div {
+        margin: 10px 0;
+    }
+
+.sorting-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 150px; /* Smaller height */
+    width: 100%; /* Ensures full container width is used */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.bar {
+    background-color: #007bff;
+    margin: 0 1px;
+    transition: height 0.1s ease;
+    width: 4px; /* Smaller bar width */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
